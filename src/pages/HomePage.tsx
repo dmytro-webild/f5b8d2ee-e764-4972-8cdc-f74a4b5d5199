@@ -10,28 +10,25 @@ import AboutSection from './HomePage/sections/About';
 import FeaturesSection from './HomePage/sections/Features';
 import BentoSection from './HomePage/sections/Bento';
 import MetricsSection from './HomePage/sections/Metrics';
-import TestimonialsSection from './HomePage/sections/Testimonials';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
 export default function HomePage(): React.JSX.Element {
   return (
-<>
-  <HeroSection />
+    <>
+      <HeroSection />
 
-  <AboutSection />
+      <AboutSection />
 
-  <FeaturesSection />
+      <FeaturesSection />
 
-  <BentoSection />
+      <BentoSection />
 
-  <MetricsSection />
+      <MetricsSection />
 
-  <TestimonialsSection />
+      <FaqSection />
 
-  <FaqSection />
-
-  <ContactSection />
+      <ContactSection />
     </>
   );
 }
