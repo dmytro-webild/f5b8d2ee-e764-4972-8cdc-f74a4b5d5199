@@ -8,7 +8,7 @@ export default function MetricsSection(): React.JSX.Element {
   const metrics = [
     {
       icon: Clock,
-      value: "+2,500 hrs",
+      value: "+120 hrs",
       title: "Horas de Trabajo Ahorradas",
       description: "Tiempo mensual recuperado por equipos al automatizar tareas administrativas y flujos de trabajo con IA.",
       highlight: true,
@@ -16,7 +16,7 @@ export default function MetricsSection(): React.JSX.Element {
     },
     {
       icon: TrendingUp,
-      value: "85%",
+      value: "65%",
       title: "Aumento de Eficiencia",
       description: "Aceleración en los tiempos de respuesta y ejecución de procesos operativos.",
       highlight: false,
