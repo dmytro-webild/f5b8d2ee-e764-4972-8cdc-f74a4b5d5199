@@ -181,7 +181,6 @@ export default function HomePage() {
       description="Historias de éxito de empresas que transformaron su operación con Renexa."
       testimonials={[
         {
-          id: "1",
           name: "Sarah Johnson",
           role: "CEO",
           company: "RetailGrowth",
@@ -189,7 +188,6 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1674.jpg",
         },
         {
-          id: "2",
           name: "Michael Chen",
           role: "CTO",
           company: "InnovateLog",
@@ -197,7 +195,6 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/happy-male-entrepreneur-using-desktop-pc-while-working-office-there-are-people-background_637285-1037.jpg",
         },
         {
-          id: "3",
           name: "Emily Rodriguez",
           role: "Ops Manager",
           company: "ServiceFlow",
@@ -205,7 +202,6 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/business-man-working-late-office_23-2148991380.jpg",
         },
         {
-          id: "4",
           name: "David Kim",
           role: "Director",
           company: "EcommercePro",
@@ -213,7 +209,6 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/charming-girl-with-laptop-office_23-2147787594.jpg",
         },
         {
-          id: "5",
           name: "Ana Sofia",
           role: "Strategy Lead",
           company: "MarketDynamics",
