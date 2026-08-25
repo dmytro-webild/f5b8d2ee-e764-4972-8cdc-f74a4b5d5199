@@ -1,5 +1,5 @@
 import FooterSimpleCard from '@/components/sections/footer/FooterSimpleCard';
-import NavbarFullscreenStatic from '@/components/ui/NavbarFullscreenStatic';
+import CustomNavbar from '@/components/custom/CustomNavbar';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
@@ -37,7 +37,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="magnetic" siteBackground="gridDots" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarFullscreenStatic
+        <CustomNavbar
           logo="Renexa"
           ctaButton={{
             text: "Solicitar Demo",
