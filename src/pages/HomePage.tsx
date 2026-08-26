@@ -6,8 +6,7 @@
 
 import React from 'react';
 import HeroSection from './HomePage/sections/Hero';
-import Quiénes SomosSection from './HomePage/sections/Quiénes Somos';
-import FeaturesSection from './HomePage/sections/Features';
+import QuiénesSomosSection from './HomePage/sections/Quiénes Somos';
 import BentoSection from './HomePage/sections/Bento';
 import MetricsSection from './HomePage/sections/Metrics';
 import FaqSection from './HomePage/sections/Faq';
@@ -18,9 +17,7 @@ export default function HomePage(): React.JSX.Element {
     <>
       <HeroSection />
 
-      <Quiénes SomosSection />
-
-      <FeaturesSection />
+      <QuiénesSomosSection />
 
       <BentoSection />
 
