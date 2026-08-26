@@ -2,14 +2,14 @@
 // file as the canonical source for the "about" section.
 
 import React from 'react';
-import MediaOverlay from '@/components/sections/about/MediaOverlay';
+import AboutMediaOverlay from '@/components/sections/about/AboutMediaOverlay';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function Section(): React.JSX.Element {
+export default function AboutSection(): React.JSX.Element {
   return (
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
-              <MediaOverlay
+              <AboutMediaOverlay
           tag="Quiénes Somos"
           title="Partner Integral en Transformación Digital"
           description="Renexa no solo implementa herramientas; rediseñamos el futuro de tu empresa. Combinamos diseño web de alta conversión con tecnología de IA avanzada para que tú te enfoques en lo que más importa: hacer crecer tu negocio."
