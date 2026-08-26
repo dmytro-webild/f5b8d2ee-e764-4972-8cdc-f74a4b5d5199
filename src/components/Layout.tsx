@@ -12,7 +12,7 @@ export default function Layout() {
       "href": "#hero"
     },
     {
-      "name": "IA Automation",
+      "name": "Automatización",
       "href": "#features"
     },
     {
