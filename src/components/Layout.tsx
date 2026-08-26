@@ -13,7 +13,7 @@ export default function Layout() {
     },
     {
       "name": "Automatización",
-      "href": "#features"
+      "href": "#bento"
     },
     {
       "name": "Resultados",
