@@ -39,7 +39,7 @@ export default function CustomNavbar({ logo, navItems, ctaButton }: CustomNavbar
     };
   }, [menuOpen]);
 
-  const whatsappPhone = "34604250250";
+  const whatsappPhone = "34634184639";
   const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent("Hola Renexa, me gustaría solicitar información.")}`;
 
   return (
